@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Small Question</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Decorative floating background shapes -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
+  <div class="bg-shape shape-3"></div>
+  <div class="bg-shape shape-4"></div>
+
+  <main class="page">
+    <!-- Polaroid photos -->
+    <div class="polaroid polaroid-1">
+      <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80" alt="Polaroid memory 1">
+      <p>Little moments</p>
+    </div>
+
+    <div class="polaroid polaroid-2">
+      <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=600&q=80" alt="Polaroid memory 2">
+      <p>Soft sunsets</p>
+    </div>
+
+    <div class="polaroid polaroid-3">
+      <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=600&q=80" alt="Polaroid memory 3">
+      <p>Us, maybe?</p>
+    </div>
+
+    <div class="polaroid polaroid-4">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80" alt="Polaroid memory 4">
+      <p>One more smile</p>
+    </div>
+
+    <div class="polaroid polaroid-5">
+      <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=600&q=80" alt="Polaroid memory 5">
+      <p>Pretty chaos</p>
+    </div>
+
+    <div class="polaroid polaroid-6">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80" alt="Polaroid memory 6">
+      <p>Worth asking</p>
+    </div>
+
+    <!-- Center glass card -->
+    <section class="center-card fade-in" id="centerCard">
+      <span class="card-glow"></span>
+      <h1>A Small Question</h1>
+      <p>I built this page for one reason.</p>
+
+      <div class="button-group">
+        <button id="yesBtn" class="btn btn-yes">Yes</button>
+        <button id="noBtn" class="btn btn-no">No</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Popup -->
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup">
+      <h2>Best decision ever.</h2>
+      <h2>But Its a prank from Shafi !</h2>
+      <button id="closePopup" class="btn btn-close">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
